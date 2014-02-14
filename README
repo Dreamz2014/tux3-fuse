@@ -1,0 +1,13 @@
+DEBUGGING:
+	Added printf statements in every C function from /user, /user/kernel & /user/libklib with flags DEBUG_MODE_U, DEBUG_MODE_K & DEBUG_MODE_L
+	Added flag ALLOW_BUILTIN_LOG to builtin log statements
+
+
+
+READ WRITE CALLS:
+	Read Write buffer printing with DEBUG_RW in iovabs & ioabs functions in /user/diskio.c
+	
+
+	
+All flags are defined in /user/newDefines.h
+"newDefines.h" is included in /user/kernel/tux3.h, /user/libklib/libklib.h, /user/kernel/trace.h & /user/trace.h
